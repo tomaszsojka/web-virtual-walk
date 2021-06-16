@@ -79,18 +79,18 @@ const onSceneReady = (scene) => {
   camera.attachControl(canvas, true);
   camera.inputs.attached.mousewheel.detachControl(canvas);
 
-  tex1 = new Texture("./1.jpg", scene, false, false);
-  tex2 = new Texture("./2.jpg", scene, false, false);
-  tex3 = new Texture("./3.jpg", scene, false, false);
+  tex1 = new Texture("https://i.ibb.co/nDpTXXr/1.jpg", scene, false, false);
+  tex2 = new Texture("https://i.ibb.co/51wTh2g/2.jpg", scene, false, false);
+  tex3 = new Texture("https://i.ibb.co/g4fDwfb/3.jpg", scene, false, false);
 
-  tex4 = new Texture("./4.jpg", scene, false, false);
-  tex41 = new Texture("./4_1.jpg", scene, false, false);
-  tex42 = new Texture("./4_2.jpg", scene, false, false);
-  tex421 = new Texture("./4_2_1.jpg", scene, false, false);
-  tex5 = new Texture("./5.jpg", scene, false, false);
-  tex6 = new Texture("./6.jpg", scene, false, false);
-  tex7 = new Texture("./7.jpg", scene, false, false);
-  tex8 = new Texture("./8.jpg", scene, false, false);
+  tex4 = new Texture("https://i.ibb.co/nkJQtfP/4.jpg", scene, false, false);
+  tex41 = new Texture("https://i.ibb.co/vsVgYKv/4-1.jpg", scene, false, false);
+  tex42 = new Texture("https://i.ibb.co/q72NVhb/4-2.jpg", scene, false, false);
+  tex421 = new Texture("https://i.ibb.co/6X87W3z/4-2-1.jpg", scene, false, false);
+  tex5 = new Texture("https://i.ibb.co/jRs6bq9/5.jpg", scene, false, false);
+  tex6 = new Texture("https://i.ibb.co/tb5yPD7/6.jpg", scene, false, false);
+  tex7 = new Texture("https://i.ibb.co/4KnpXk0/7.jpg", scene, false, false);
+  tex8 = new Texture("https://i.ibb.co/RYG50Zp/8.jpg", scene, false, false);
 
   dome = new PhotoDome(
       "testdome",
