@@ -2,14 +2,8 @@ import React from "react";
 import {
     ArcRotateCamera,
     Vector3,
-    Color3,
     PhotoDome,
-    Texture,
-    TransformNode,
-    CylinderBuilder,
-    StandardMaterial,
-    ActionManager,
-    ExecuteCodeAction, SceneLoader, AssetsManager, SceneOptimizer, Mesh,
+    Texture, AssetsManager, SceneOptimizer, Mesh,
 } from "@babylonjs/core";
 import SceneComponent from "./SceneComponent"; // uses above component in same directory
 import "@babylonjs/loaders/OBJ";
