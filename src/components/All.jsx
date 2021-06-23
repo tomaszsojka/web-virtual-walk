@@ -167,6 +167,7 @@ const onRender = (scene) => {
             arrow.rotation = new Vector3(1.6, 0, 0);
             arrow.position = new Vector3(250, -100, 0);
 
+            arrow42.scaling = new Vector3(0, 0, 0);
             dome.photoTexture = tex3;
         } else if (up === 3) {
             actionArrow = () => up = 4;
